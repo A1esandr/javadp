@@ -1,0 +1,1 @@
+AsEnum - example of implementing singleton design pattern as Enum class.
