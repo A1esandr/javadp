@@ -1,0 +1,14 @@
+public class App {
+    public static void main(String[] args) {
+        User user = new User();
+        Admin admin = new Admin();
+
+        Chat chat = new Chat();
+        chat.addObserver(admin);
+        chat.addObserver(user);
+
+        chat.addMessage("Hi");
+        chat.addMessage("Hello");
+        chat.addMessage("Buy");
+    }
+}

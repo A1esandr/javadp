@@ -2,3 +2,5 @@
 .idea
 *.iml
 build/
+/builder/gradle/
+/observer/gradle/
