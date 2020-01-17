@@ -10,5 +10,8 @@ public class App {
         chat.addMessage("Hi");
         chat.addMessage("Hello");
         chat.addMessage("Buy");
+
+        chat.removeObserver(user);
+        chat.addMessage("Buy-buy");
     }
 }
