@@ -4,3 +4,5 @@
 build/
 /builder/gradle/
 /observer/gradle/
+/singleton/gradle/
+/adapter/gradle/
