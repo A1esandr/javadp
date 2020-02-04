@@ -23,7 +23,7 @@ public class App {
         functionalComputer.runTask();
 
         functionalComputer = new Computer(
-                () -> LOGGER.info("Execute some code")
+                () -> LOGGER.info("Execute some code and get some output")
         );
         functionalComputer.runTask();
     }
